@@ -3,8 +3,7 @@ server:
 
 spring:
   application:
-    name:
-      playground
+    name: auth-service
 
   profiles:
     active: ${SPRING_PROFILES_ACTIVE:local}
